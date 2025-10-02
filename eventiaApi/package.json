@@ -6,7 +6,9 @@
     "express": "^5.1.0"
   },
 
-  "scripts":{
-    "start": "node backend/server.js"
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "npm install",
+    "dev": "nodemon backend/server.js"
   }
 }
